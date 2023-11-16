@@ -19,7 +19,7 @@ body {
 }
 
 .bg {
-    background-image: url("imgs/ceu-bg.png");
+    background-image: url("/imgs/ceu-bg.png");
     background-repeat: no-repeat;
     background-position: bottom;
     border-radius: 10px;
