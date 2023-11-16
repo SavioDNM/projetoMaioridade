@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Entrada para o Paraíso</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="bg">
+            <img id="verify" src="imgs/banner-age-2.png" alt="Imagem da logo">
+            <h1>Bem-vindo à Entrada para o Paraíso</h1>
+
+            <form id="ageForm" onsubmit="validateAge(); return false;">
+                <label for="dob">Digite sua data de nascimento:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <button type="submit" class="verify-button">Verificar Maioridade</button>
+            </form>
+
+            <div id="result"></div>
+            <div id="imageContainer">
+                <img id="paradiseImage" src="/imgs/police.png" alt="Imagem do Paraíso">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

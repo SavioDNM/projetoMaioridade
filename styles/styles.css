@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #292929;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.bg {
+    background-image: url("/imgs/ceu-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    background: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+ 
+p {
+    margin-top: 20px;
+    font-size: 25px;
+} 
+
+
+form {
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    display: inline-block;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 40px;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+#paradiseImage {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: opacity 0.5s ease-in-out, border 0.5s ease-in-out;
+}
+
+.positive-border {
+    border: 10px solid #8cdd00;
+}
+
+.negative-border {
+    border: 10px solid red;
+}
+
+#verify {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
